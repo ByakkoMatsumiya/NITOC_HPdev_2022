@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    background-image: url();
+    background-size:  cover;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.main-visual {
+    display: table;
+    position: relative;
+    z-index: 1;
+    font-family: "Sawarabi Mincho";
+    width: 100%;
+    height: 100vh;
+    background-image: url("src/main-visual.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.main-visual::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.main-text{
+    position: relative;
+    z-index: 3;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 600%;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+/*----固定表示するコンテンツ----*/
+
+.title {
+    margin: 0;
+    margin-right: auto;
+    padding: 30px 0;
+}
+
+.title .logo {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.global-nav {
+    padding: 5px 0;
+}
+
+.global-nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.global-nav ul li {
+    list-style: none;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    margin: auto 40px;
+}
+
+.nav-a{
+    text-decoration: none;
+}/*ナビゲーションの文字の下線を消す*/
+
+footer{
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+}/*フッタ*/
+
+/*----本文----*/
+main{
+    width: 60%;
+    padding-top: 8rem;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+main h2{
+    font-size: 60px;
+}
+
+.content{
+    margin-left: 1rem;
+    align-items: center;
+}
+
+.footer-logo{
+    filter: drop-shadow(2px 2px 4px #000);
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*----ボタン----*/
+
+/* ボタン共通設定 */
+.btn03{
+    /*影の基点とするためrelativeを指定*/
+    position: relative;
+    /*ボタンの形状*/
+	text-decoration: none;
+	display: inline-block;
+    text-align: center;
+    background: transparent;
+	border-radius: 25px;
+	border: solid 1px #00BFFF;
+    outline: none;
+    /*アニメーションの指定*/
+    transition: all 0.2s ease;
+}
+
+/*hoverをした後のボタンの形状*/
+.btn03:hover{
+	border-color:transparent;
+}
+
+/*ボタンの中のテキスト*/
+.btn03 span {
+	position: relative;
+	z-index: 2;/*z-indexの数値をあげて文字を背景よりも手前に表示*/
+    /*テキストの形状*/
+	display: block;
+    padding: 10px 30px;
+	background:#FFF;
+	border-radius: 25px;
+	color:#00BFFF;
+    /*アニメーションの指定*/
+    transition: all 0.3s ease;
+}
+
+/*== 下に押し込まれる（立体が平面に） */
+
+/*影の設定*/
+.pushdown:before {
+    content:"";
+    /*絶対配置で影の位置を決める*/
+    position: absolute;
+	z-index: -1;
+    top:4px;
+    left:0;
+    /*影の形状*/
+    width: 100%;
+    height: 100%;
+	border-radius: 25px;
+    background-color: #00BFFF;
+}
+
+/*hoverの際にY軸に4pxずらす*/
+.pushdown:hover span {
+	background-color: #00BFFF;
+	color: #FFF;
+	transform: translateY(4px);
+}
+
+/*----レスポンシブ対応用スマホ向け----*/
+@media only screen and (max-width: 500px) {
+    main{
+        width: 100%;
+    }
+    .button-link{
+        width: 40%;
+    }
+}

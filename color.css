@@ -1,0 +1,39 @@
+/*----ヘッダ----*/
+.title {
+    background-color: #FFF;
+}
+
+/*----ナビゲーションバー----*/
+nav{
+    background-color: #FFF;
+}
+
+.nav-a{
+    color: #000;
+}
+
+a{
+    color: #000;
+}
+/*----フッタ----*/
+footer{
+    background-color: #24a74f;
+    color: #FFF;
+}
+/*----本文----*/
+body{
+    background-color: #FEFEFE;
+}
+
+main{
+    background-color:  #FEFEFE;
+}
+.content h2{
+    color: #120078;
+}
+/*----ボタン----*/
+
+.button-link{
+    background-color: #1E90FF;
+    color: #EFEFEF;
+}
