@@ -17,7 +17,7 @@ a{
 }
 /*----フッタ----*/
 footer{
-    background-color: #24a74f;
+    background-color: #19448E;
     color: #FFF;
 }
 /*----本文----*/
@@ -36,4 +36,8 @@ main{
 .button-link{
     background-color: #1E90FF;
     color: #EFEFEF;
+}
+
+.footer-contents a{
+    color:#FFF;
 }

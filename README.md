@@ -5,6 +5,7 @@
 
 おすすめサイト
 https://www.xn--t8ju21hu42avir.com/
+https://coco-factory.jp/ugokuweb/
 
 プレビュー表示(公開版)
 https://byakkomatsumiya.github.io/NITOC_HPdev_2022/

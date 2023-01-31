@@ -93,6 +93,7 @@ footer{
     bottom: 0px;
     left: 0px;
     text-align: center;
+    height: 200px;
 }/*フッタ*/
 
 /*----本文----*/
@@ -117,6 +118,19 @@ main h2{
     filter: drop-shadow(2px 2px 4px #000);
     width: 50%;
     margin: 0 auto;
+}
+
+.footer-contents ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-contents ul li {
+    font-family: "M PLUS Rounded 1c";
+    list-style: none;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    margin: auto;
 }
 
 /*----ボタン----*/
