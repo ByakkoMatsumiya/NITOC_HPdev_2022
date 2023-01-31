@@ -106,18 +106,26 @@ main{
 }
 
 main h2{
-    font-size: 60px;
+    font-size: 70px;
+    font-family: "Sawarabi Gothic";
+    font-weight: 500;
 }
 
-.content{
-    margin-left: 1rem;
+#content-list{
+    margin: 50px auto;
+    padding: 30px 50px;
     align-items: center;
+}
+
+#overview p{
+    font-size: 30px;
+    font-family: "Sawarabi Mincho";
 }
 
 .footer-logo{
     filter: drop-shadow(2px 2px 4px #000);
-    width: 50%;
-    margin: 0 auto;
+    width: 40%;
+    margin: 20px auto;
 }
 
 .footer-contents ul {
