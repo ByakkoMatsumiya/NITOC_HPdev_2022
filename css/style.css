@@ -22,7 +22,7 @@ a {
     font-family: "Sawarabi Mincho";
     width: 100%;
     height: 100%;
-    background-image: url("src/main-visual.png");
+    background-image: url("../src/main-visual.png");
     background-size: cover;
     background-position: center;
 }
@@ -93,7 +93,7 @@ footer{
     bottom: 0px;
     left: 0px;
     text-align: center;
-    height: 200px;
+    height: 300px;
 }/*フッタ*/
 
 /*----本文----*/
@@ -128,17 +128,32 @@ main h2{
     margin: 20px auto;
 }
 
-.footer-contents ul {
+.footer-maincontents {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.footer-subcontents {
     display: flex;
     justify-content: center;
 }
 
-.footer-contents ul li {
+.footer-maincontents li {
     font-family: "M PLUS Rounded 1c";
     list-style: none;
     font-size: 30px;
     letter-spacing: 0.1em;
+    margin: auto 5em;
+}
+
+.footer-subcontents{
+    font-family: "M PLUS Rounded 1c";
+    list-style: none;
+    font-size: 25px;
+    letter-spacing: 0.1em;
     margin: auto;
+    padding-top: 20px
 }
 
 /*----ボタン----*/
@@ -157,6 +172,7 @@ main h2{
     outline: none;
     /*アニメーションの指定*/
     transition: all 0.2s ease;
+    margin: auto 50px;
 }
 
 /*hoverをした後のボタンの形状*/
@@ -176,6 +192,7 @@ main h2{
 	color:#00BFFF;
     /*アニメーションの指定*/
     transition: all 0.3s ease;
+    font-size: larger;
 }
 
 /*== 下に押し込まれる（立体が平面に） */
