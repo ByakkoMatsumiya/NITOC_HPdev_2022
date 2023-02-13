@@ -93,7 +93,7 @@ footer{
     bottom: 0px;
     left: 0px;
     text-align: center;
-    height: 300px;
+    height: 350px;
 }/*フッタ*/
 
 /*----本文----*/
@@ -112,7 +112,7 @@ main h2{
 }
 
 #content-list{
-    margin: 50px auto;
+    margin: 3em auto 20em auto;
     padding: 30px 50px;
     align-items: center;
 }
@@ -124,7 +124,7 @@ main h2{
 
 .footer-logo{
     filter: drop-shadow(2px 2px 4px #000);
-    width: 40%;
+    width: 30em;
     margin: 20px auto;
 }
 
@@ -132,6 +132,7 @@ main h2{
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    padding-right: 2em;
 }
 
 .footer-subcontents {
@@ -142,7 +143,7 @@ main h2{
 .footer-maincontents li {
     font-family: "M PLUS Rounded 1c";
     list-style: none;
-    font-size: 30px;
+    font-size: 200%;
     letter-spacing: 0.1em;
     margin: auto 5em;
 }
@@ -150,10 +151,15 @@ main h2{
 .footer-subcontents{
     font-family: "M PLUS Rounded 1c";
     list-style: none;
-    font-size: 25px;
+    font-size: 80%;
     letter-spacing: 0.1em;
     margin: auto;
-    padding-top: 20px
+    padding-top: 20px;
+}
+
+.footer-credit{
+    margin: auto;
+    font-size: 100%;
 }
 
 /*----ボタン----*/
@@ -168,11 +174,11 @@ main h2{
     text-align: center;
     background: transparent;
 	border-radius: 25px;
-	border: solid 1px #00BFFF;
+	border: solid 2px #00BFFF;
     outline: none;
     /*アニメーションの指定*/
     transition: all 0.2s ease;
-    margin: auto 50px;
+    margin: auto 3em;
 }
 
 /*hoverをした後のボタンの形状*/
