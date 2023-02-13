@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="color.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+        <title>We love NAGO City</title>
+    </head>
+
+    <body>
+        <header class="title">
+            <h1 class="logo">
+                <a href="#"><img src = "src/main_logo.png" alt="TITLE"></a>
+            </h1>
+        </header>
+
+        <nav class="global-nav">
+            <ul>
+                <li><a href="#">概要</a></li>
+                <li><a href="#">コンテンツ</a></li>
+                <li><a href="#">リンク集</a></li>
+            </ul>
+        </nav>
+
+        <div class="main-visual">
+            <h2 class="main-text"><br><br><br>The Town of diversity<br><br><br><br></h2>
+        </div>
+
+        <main>
+            <div class="content" id="overview">
+                <p>
+                    Experience the fascinating town of Nago<br>
+                    The preferred town for youngsters<br>
+                    Don't miss your chance !
+                </p>
+            </div>
+            <div class="content" id="content-list">
+                <a href="./Demo1.html" class="btn03 pushdown"><span>デモページ</span></a>
+                <a href="./VRmenu.html" class="btn03 pushdown"><span>VR</span></a>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </main>
+        <footer>
+            <div class="footer-logo">
+                <a href="#"><img src="src/footer_logo.png" alt="TITLE_WHITE"></a>
+            </div>
+            <div class="footer-contents">
+                <ul>
+                    <li><a href="#">プロジェクト</a></li>
+                    <li><a href="#">メンバー</a></li>
+                    <li><a href="#">リンク集</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
