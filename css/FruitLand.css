@@ -98,6 +98,10 @@ a:hover {
     text-decoration: none;
 }/*ナビゲーションの文字の下線を消す*/
 
+.access h2{
+    font-size: 50px;
+}
+
 footer{
     width: 100%;
     box-sizing: border-box;
